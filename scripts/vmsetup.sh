@@ -25,3 +25,8 @@ sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql -y
 sudo /etc/init.d/apache2 restart
 sudo /etc/init.d/mysql restart
 
+# setup mysql
+mysql -u root -proot < ~/scripts/sql/bkp_redirector.sql
+
+# clean up
+rm /var/www/index.html
