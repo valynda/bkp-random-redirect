@@ -1,5 +1,11 @@
-INSERT INTO bkp_redirector.redirect SET uri = "http://google.com";
-INSERT INTO bkp_redirector.redirect SET uri = "http://yahoo.com";
-INSERT INTO bkp_redirector.redirect SET uri = "http://cnn.com";
-INSERT INTO bkp_redirector.redirect SET uri = "http://foxnews.com";
-INSERT INTO bkp_redirector.redirect SET uri = "http://msnbc.com";
+INSERT INTO bkp_redirector.redirect SET uri = "http://roulette.bobknowsphones.com/10off.html";
+INSERT INTO bkp_redirector.redirect SET uri = "http://roulette.bobknowsphones.com/5off.html";
+INSERT INTO bkp_redirector.redirect SET uri = "http://roulette.bobknowsphones.com/commercial.html";
+INSERT INTO bkp_redirector.redirect SET uri = "http://roulette.bobknowsphones.com/tryagain.html";
+INSERT INTO bkp_redirector.redirect SET uri = "http://m.facebook.com/BobKnowsPhones";
+INSERT INTO bkp_redirector.redirect SET uri = "http://mobile.twitter.com/bobknowsphones";
+INSERT INTO bkp_redirector.redirect SET uri = "http://m.youtube.com/bobknowsphones1";
+INSERT INTO bkp_redirector.redirect SET uri = "http://m.bobknowsphones.com";
+INSERT INTO bkp_redirector.redirect SET uri = "https://plus.google.com/117152640669017389492/posts";
+INSERT INTO bkp_redirector.redirect SET uri = "http://www.yelp.com/biz/bob-knows-phones-atlanta-3";
+INSERT INTO bkp_redirector.redirect SET uri = "http://www.yelp.com/biz/bob-knows-phones-alpharetta";
