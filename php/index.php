@@ -5,7 +5,7 @@ if (mysqli_connect_errno($mysqli)) {
 	header("Location: http://www.bobknowsphones.com");
 }
 
-$result = $mysqli->query('SELECT id, uri FROM redirect ORDER BY RAND() LIMIT 0, 1;');
+$result = $mysqli->query('SELECT id, uri FROM bkp_redirector ORDER BY RAND() LIMIT 0, 1');
 $row = $result->fetch_assoc();
 
 $mysqli->query("UPDATE redirect SET count = count + 1 WHERE id = {$row['id']}");
