@@ -1,10 +1,9 @@
-
 DROP DATABASE IF EXISTS bkp_redirector;
 CREATE DATABASE bkp_redirector;
 
 
-DROP TABLE IF EXISTS bkp_redirector.redirect;
-CREATE TABLE bkp_redirector.redirect (
+DROP TABLE IF EXISTS bkp_redirector.bkp_redirector;
+CREATE TABLE bkp_redirector.bkp_redirector (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `uri` varchar(255) DEFAULT NULL,
   `count` int(10) unsigned NOT NULL DEFAULT '0',
